@@ -1,0 +1,61 @@
+﻿body {
+    background-color: #f0f0f0;
+}
+
+div {
+    font-family: 'CactronRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+
+    color: #464646;
+    color: inherit;
+    
+}
+
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+    top: 0;
+
+    padding: 10px;
+    width: 100%;
+
+    background-color: #204472;
+    color: white;
+
+    margin-bottom: 5%;
+}
+
+.vCentered {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.hCentered {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+header img {
+    width: 15em;
+    border: solid;
+    border-color: #295793;
+    border-width: 10px;
+    
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+#content {
+    width: 1280px;
+    margin: auto;
+}
