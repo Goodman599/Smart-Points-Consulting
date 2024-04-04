@@ -28,27 +28,39 @@ header {
     margin-bottom: 5%;
 }
 
-.vCentered {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+header div {
+    display: inline-block; 
+    text-align: center; 
+    width: 100%;
 }
 
-.hCentered {
-    position: absolute;
-    left: 50%;
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+#test {
+    float: left;
+    width: 260px;
 }
 
 header img {
-    width: 15em;
+    width: 85%;
     border: solid;
     border-color: #295793;
     border-width: 10px;
     
     margin-left: 10px;
+}
+
+header h1 {
+    left: 10em;
+}
+
+#consultingImage {
+    float: right;
+    width: 40%;
+    margin: 10px;
+}
+
+#consultingImage img {
+    object-fit: cover;
+    width: 100%;
 }
 
 .clear {
